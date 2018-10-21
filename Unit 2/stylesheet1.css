@@ -1,0 +1,165 @@
+/* Exercise 1 */
+
+h1, h2, h3, h4, h5, h6{
+    color: blue;
+}
+
+/* Exercise 2 */
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 15px;
+}
+
+h6{
+    font-size: 10px;
+}
+
+h1, h2, h3{
+    font-family: Arial, Arial Black, 'Arial Narrow';
+}
+
+/* Exercise 3 */
+
+h6, p{
+    color: black;
+    font-size: 10px;
+}
+
+/* Exercise 4 */
+
+p{
+    color: green;
+    align-content: center;
+}
+
+p{
+    color: maroon;
+}
+
+/* Exercise 5 */
+
+h1{
+    letter-spacing: 3em;
+    word-spacing: 3em;
+}
+
+h2{
+    letter-spacing: 2em;
+    word-spacing: 2em;
+}
+
+h3{
+    letter-spacing: 1,5em;
+    word-spacing: 1,5em;
+}
+
+/* Exercise 6 */
+
+body{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3{
+    font-family: 'Times New Roman', Courier, Arial;
+}
+
+/* Exercise 7 */
+
+h1{
+    color: #dddddd;
+}
+
+h2{
+    color: #cccccc;
+}
+
+h3{
+    color: #bbbbbb;
+}
+
+h4{
+    color: #aaaaaa
+}
+
+h5{
+    color: #999999;
+}
+
+h6{
+    color: #888888; 
+}
+
+/* Exercise 9 */
+
+.subrayado{  
+    color:#00aa00;  
+    text-decoration:underline; 
+} 
+
+.tachado{  
+    color:#00aa00;  
+    text-decoration:line-through; 
+}
+
+    /* <h1 class="subrayado">Ejercicio 9</h1>
+    <p>
+        <span class="subrayado">Subrayado </span>
+        <span class="tachado">Tachado </span>
+        <span class="subrayado">Subrayado </span>
+        <span class="tachado">Tachado </span>
+    </p> */
+
+/* Exercise 10 */
+
+.pregunta{  
+    font-family:verdana;  
+    font-size:14px;  
+    font-style:italic;  
+    color:#0000aa; 
+} 
+
+.respuesta{  
+    font-family:verdana;  
+    font-size:12px;  
+    font-style:normal;  
+    text-align:justify;  
+    color:#555555; 
+}
+
+    /* <p class="pregunta">¿Cuándo es tu cumpleaños?</p>
+    <p class="respuesta">Mi cumpleaños es el 6 de octubre.</p> */
+
+/* Exercise 11 */
+
+h1, h2, h3{
+    border: solid 2 px blue;
+}
+
+h1{
+    font-style: italic;
+}
+
+h2{
+    font-style: oblique;
+}
+
+h3{
+    font-style: inherit;
+}
