@@ -118,13 +118,15 @@ h6{
     text-decoration:line-through; 
 }
 
-    /* <h1 class="subrayado">Ejercicio 9</h1>
+    /*
+    <h1 class="subrayado">Ejercicio 9</h1>
     <p>
         <span class="subrayado">Subrayado </span>
         <span class="tachado">Tachado </span>
         <span class="subrayado">Subrayado </span>
         <span class="tachado">Tachado </span>
-    </p> */
+    </p>
+    */
 
 /* Exercise 10 */
 
@@ -143,8 +145,10 @@ h6{
     color:#555555; 
 }
 
-    /* <p class="pregunta">¿Cuándo es tu cumpleaños?</p>
-    <p class="respuesta">Mi cumpleaños es el 6 de octubre.</p> */
+    /*
+    <p class="pregunta">¿Cuándo es tu cumpleaños?</p>
+    <p class="respuesta">Mi cumpleaños es el 6 de octubre.</p>
+    */
 
 /* Exercise 11 */
 
@@ -162,4 +166,103 @@ h2{
 
 h3{
     font-style: inherit;
+}
+
+/* Exercise 12 */
+
+.titulosecundario{
+    border-bottom: 2px;
+    border-top: 2px;
+    border-color: #0000aa;
+    border-style: double;
+}
+
+/* Exercise 13 */
+
+h1{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Exercise 14 */
+
+body{
+    background-image: url("./foto.png");
+    background-attachment: scroll;
+}
+
+body{
+    background-image: url("./foto.png");
+    background-attachment: fixed;
+}
+
+/* Exercise 15 */
+
+h1, h2, h3{
+    border-bottom: 10px;
+    border-top: 10px;
+}
+
+    /*
+    <hr>
+    <h1>Prueba h1</h1>
+    <hr>
+    <h2>Prueba h2</h2>
+    <hr>
+    <h3>Prueba h3</h3>
+    <hr>
+    */
+
+/* Exercise 16 */
+
+p .padding1{
+    padding: 20px;
+}
+
+p .padding2{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+p .padding3{
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+
+    /*
+    <p class="padding1">Prueba padding total 20px</p>
+    <p class="padding2">Prueba padding superior e inferrior 10px</p>
+    <p class="padding3">Prueba padding lateral 15px</p>
+    */
+
+/* Exercise 17 */
+
+.paddingLeft {
+    padding-left: 20%;
+}
+
+#paddingLeft {
+    padding-left: 25%;
+}
+
+    /*
+    <h1>Sin padding</h1>
+    <h1 class="paddingLeft">Padding mediante clase</h1>
+    <h1 id="paddingLeft">Padding mediante id</h1>
+
+    <h2>Sin padding</h2>
+    <h2 class="paddingLeft">Padding mediante clase</h2>
+    <h2 id="paddingLeft">Padding mediante id</h2>
+
+    <h3>Sin padding</h3>
+    <h3 class="paddingLeft">Padding mediante clase</h3>
+    <h3 id="paddingLeft">Padding mediante id</h3>
+    */
+
+/* Exercise 18 */
+
+h1{
+    background-image: url("./fondoh1.png");
 }
