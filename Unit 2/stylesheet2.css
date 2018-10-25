@@ -1,0 +1,50 @@
+/* Exercise 1 */
+
+body{
+    font-size: 10pt;
+    color: black;
+    font-family: Verdana;
+    background-color: grey;
+}
+
+.naranja{
+    color: orange;
+    background-color: blue;
+}
+
+.consola{
+    color: darkgreen;
+    font-family: Courier;
+    background-color: black;
+}
+
+a .importante{
+    text-decoration: none;
+}
+
+h1 #titulo{
+    font-family: Verdana;
+    font-size: 40pt;
+    color: darkgrey;
+}
+
+    /* 
+    <p class="naranja">Try 1: Font color orange, background color blue.</p>
+    <p class="consola">Try 2: Font color dark green, background color black, font family 'Courier'.</p>
+    <p><a href="#" class="importante">Try 3: Link without underline.</a></p>
+    <h1 id="titulo">Try 4: Font color dark grey, font sice 40pt, font family 'Verdana'.</h1>
+    */
+
+/* Exercise 2 */
+
+
+
+
+    /* <ul>
+        <li><a href="#">United Kingdom</a></li>
+        <li><a href="#">Germany</a></li>
+        <li><a href="#">Finland</a></li>
+        <li><a href="#">Russia</a></li>
+        <li><a href="#">Spain</a></li>
+        <li><a href="#">Poland</a></li>
+    </ul> */
