@@ -37,14 +37,152 @@ h1 #titulo{
 
 /* Exercise 2 */
 
+.ulExercise2{
+    list-style: none;
+    padding: 0px;
+}
 
+.liExercise2{
+    padding: 3px;
+    margin-bottom: 5px;
+}
 
+#odd{
+    background-color: grey;
+}
 
-    /* <ul>
-        <li><a href="#">United Kingdom</a></li>
-        <li><a href="#">Germany</a></li>
-        <li><a href="#">Finland</a></li>
-        <li><a href="#">Russia</a></li>
-        <li><a href="#">Spain</a></li>
-        <li><a href="#">Poland</a></li>
-    </ul> */
+#even{
+    background-color: darkgrey;
+}
+
+li a:visited{
+    color: red;
+}
+
+    /*
+    <ul class="ulExercise2">
+        <li class="ilExercise2" id="odd"><a href="#">United Kingdom</a></li>
+        <li class="ilExercise2" id="even"><a href="#">Germany</a></li>
+        <li class="ilExercise2" id="odd"><a href="#">Finland</a></li>
+        <li class="ilExercise2" id="even"><a href="#">Russia</a></li>
+        <li class="ilExercise2" id="odd"><a href="#">Spain</a></li>
+        <li class="ilExercise2" id="even"><a href="#">Poland</a></li>
+    </ul>
+    */
+
+/* Exercise 3 */
+
+li:first-child{
+    color: purple;
+    font-size: 1em;
+}
+
+li:nth-of-type(2){
+    font-size: 1em;
+}
+
+li:last-of-type{
+    font-size: 2.5em;
+    color: purple;
+}
+
+li:nth-last-of-type(2){
+    font-size: 2em;
+}
+
+li:nth-of-type(3){
+    font-size: 1.5em;
+}
+
+    /*
+    <ul>
+        <li>Primero</li>
+        <li>Segundo</li>
+        <li>Tercero</li>
+        <li>Cuarto</li>
+        <li>Quinto</li>
+    </ul>
+    */
+
+/* Exercise 4 */
+
+.firstP{
+    column-rule-style: solid;
+    column-width: 7em;
+}
+  
+.secondP{
+    column-count: 3;
+    column-rule-color: red;
+    column-rule-style: dotted;
+}
+  
+.secondP{
+    column-width: 8em;
+}
+
+    /*
+    <main>
+        <article>
+            <h3>CSS3 multi-columns propierties</h3>
+            <p class="firstP">
+                Another one got caught today, it's all over the papers.
+                "Teenager Arrested in Computer Crime Scandal", "Hacker Arrested after
+                Bank Tampering"[...]
+            </p>
+            <p class="secondP">
+                Another one got caught today, it's all over the papers.
+                "Teenager Arrested in Computer Crime Scandal", "Hacker Arrested after
+                Bank Tampering"[...]
+            </p>
+        </article>
+    </main>
+    */
+
+/* Exercise 5 */
+
+li{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: upper-alpha;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkred;
+}
+
+    /*
+    <h1>Books</h1>
+    <ol>
+        <li>A la Recherche de Temps Perdu</li>
+        <li>Middlemarch</li>
+        <li>Ulysses</li>
+        <li>Don Quixote</li>
+        <li>Moby Dick</li>
+        <li>Hamlet</li>
+        <li>War and Peace</li>
+        <li>The Odyssey</li>
+        <li>The Great Gatsby</li>
+        <li>The Divine Comedy</li>
+        <li>Madame Bovary</li>
+        <li>The Brothers Karamazov</li>
+        <li>One Hundred Years of Solitude</li>
+        <li>The Iliad</li>
+        <li>Lolita</li>
+        <li>Anna Karenina</li>
+        <li>Crime and Punishment</li>
+        <li>The Sound and the Fury</li>
+        <li>Wuthering Heights</li>
+        <li>Le Rouge et le Noir</li>
+    </ol>
+    */
+
+    /* Change ol to ul */
+
+li{
+    list-style-type: square;
+}
