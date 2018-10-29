@@ -1,0 +1,190 @@
+/* Exercise 1 */
+
+table {  
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 2px solid;
+    height: 30px;
+    width: 120px;
+}
+
+th{
+    background-color: lightslategrey
+}
+
+td{
+    background-color: lightgrey;
+}
+
+    /*
+    <table style="width100%">
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+    </table>
+    */
+
+/* Exercise 2 */
+
+td, th{
+    height: 30px;
+    width: 120px;
+}
+
+th{
+    background-color: rgb(0, 132, 255);
+}
+
+.even{
+    background-color: lightblue
+}
+
+.odd{
+    background-color: lightskyblue;
+}
+
+    /*
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr class="odd">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="even">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="odd">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="even">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    */
+
+/* Exercise 4 */
+
+td{
+    height: 30px;
+    width: 120px;
+    background-color: blue;
+}
+
+tr:hover td{
+    background-color: yellow;
+}
+
+    /*
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    */
+
+/* Exercise 5 */
+
+th{
+    text-align: left;
+    color: white;
+    background-color: grey;
+}
+
+.rank{
+    text-align: right;
+    font-weight: bold;
+    color: lightslategrey;
+    background-color: lightgrey;
+}
+
+    /*
+        <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Color</th>
+                <th>Size</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="rank">Favorite:</td>
+                <td>Apples</td>
+                <td>Green</td>
+                <td>Medium</td>
+            </tr>
+            <tr>
+                <td class="rank">2nd Favorite:</td>
+                <td>Oranges</td>
+                <td>Orange</td>
+                <td>Large</td>
+            </tr>
+            <tr>
+                <td class="rank">3rd Favorite:</td>
+                <td>Pomegranate</td>
+                <td>A kind of greeny-red</td>
+                <td>Varies from medium to large</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Color</th>
+                <th>Size</th>
+            </tr>
+        </tfoot>
+    </table> 
+    */
