@@ -1,0 +1,7 @@
+.required:valid{
+    border: 1px solid green;
+}
+
+.required:invalid{
+    border: 1px solid red;
+}
