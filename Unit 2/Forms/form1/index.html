@@ -16,9 +16,9 @@
         <fieldset>
             <legend>WHO ARE YOU?</legend>
             Name <br>
-            <input type="text" name="" id=""> <br>
+            <input type="text" name="" id="" class="required" required> <br>
             Surname <br>
-            <input type="text" name="" id=""> <br>
+            <input type="text" name="" id="" class="required" required> <br>
             Email <br>
             <input type="text" name="" id=""> <br>
             Born Date <br>
@@ -61,9 +61,9 @@
         <fieldset>
             <legend>WHERE ARE YOU FROM?</legend>
             City <br>
-            <input type="text" name="" id=""> <br>
+            <input type="text" name="" id="" class="required" required> <br>
             Postal Code <br>
-            <input type="text" name="" id=""> <br>
+            <input type="number" name="" id=""> <br>
             Country <br>
             <select name="country" id="">
                 <option value="" selected>Country</option>
@@ -78,11 +78,11 @@
         <fieldset>
             <legend>USER INFORMATION</legend>
             User Name <br>
-            <input type="text" name="" id=""> <br>
+            <input type="text" name="" id="" class="required" required> <br>
             Password <br>
-            <input type="password" name="" id=""> <br>
+            <input type="password" name="pass" id="pass" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$" class="required" required> <br>
             Repeat the Password
-            <input type="password" name="" id=""> <br>
+            <input type="password" name="pass" id="pass" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$" class="required" required> <br>
         </fieldset>
 
         <fieldset>
