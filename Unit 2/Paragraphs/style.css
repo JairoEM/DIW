@@ -1,0 +1,29 @@
+.poem::first-letter{
+    font-size: 30px;
+}
+
+.poem::first-line{
+    color: darkorange;
+}
+
+img[title*='hill']{
+    border: 2px solid darkorange;
+}
+
+.poem{
+    background-color: grey;
+    border: 2px solid darkorange;
+    padding: 4px;
+    text-align: left;
+}
+
+aside p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  float: left;
+  width: 80%;
+}
+
+#celts{
+    float: right;
+  width: 20%;
+}
