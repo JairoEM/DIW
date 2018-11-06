@@ -39,7 +39,6 @@ div{
 #fifth{
     width: 250px;
     height: 100px;
-    background-image: linear-gradient(blue, #ffffff);
-    border: 5px linear-gradient(blue, #ffffff);
-    border-radius: 20%/50%;
-}
+    border-top: 15px solid blue;
+   border-radius: 10%/30%;
+ }
