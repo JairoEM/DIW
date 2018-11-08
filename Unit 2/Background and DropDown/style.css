@@ -1,0 +1,73 @@
+#multipleBackgrounds{
+    width: 500px;
+    height: 250px;
+    background-image: url("https://i.imgur.com/N8ha909.png"), url("https://i.imgur.com/eydOmnE.png"), url("https://i.imgur.com/WNHwBWS.jpg");
+    background-position: right bottom , left top, center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    text-align: right;
+    font-weight: bold;  
+}
+
+.origin{
+    display: block;
+    width: 200px;
+}
+
+#menuIL{
+  display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+#extra, #extra1, #extra2, #extra3{
+    visibility: hidden;
+    z-index: 1;
+    display: none;
+    width: 200px;
+}
+
+#liextra:hover #extra{
+    visibility: visible;
+    display: inline-block;
+}
+
+#liextra1:hover #extra1{
+    visibility: visible;
+    display: inline-block;
+}
+
+#liextra2:hover #extra2{
+    visibility: visible;
+    display: inline-block;
+}
+
+#liextra3:hover #extra3{
+    visibility: visible;
+    display: inline-block;
+}
+
+#liextra3:hover a{
+  text-align: left;
+}
