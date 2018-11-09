@@ -32,3 +32,283 @@
 #ex04 div:first-child {
     transform: skew(25deg);
 }
+
+#containerA { 
+    width: 500px; 
+    height:500px; 
+    position: relative;
+}
+
+.boxA {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 20px;
+    position:absolute;
+    padding: 5px;
+}
+
+.ex01A .boxA {
+    left: 10px;
+    top: 10px;
+    animation-name: exercise2;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.ex02A .boxA {
+    left: 10px;
+    top: 130px;
+    animation-name: exercise2;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.ex03A .boxA {
+    left: 10px;
+    top: 250px;
+    animation-name: exercise2;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.ex04A .boxA {
+    left: 10px;
+    top: 370px;
+    animation-name: exercise2;
+    animation-duration: 7s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes exercise2{
+    0% {
+        background-color: red;
+        left: 0px;
+        width: 100px;
+        height: 100px;
+        color: black;
+        font-size: 20px;
+        transform: rotate(0deg);
+    }
+    50% {
+        background-color: purple;
+        left: 200px;
+        width: 75px;
+        height: 75px;
+        color: #666600;
+        font-size: 19px;
+        transform: rotate(135deg);
+    }
+    100% {
+        background-color: blue;
+        left: 400px;
+        width: 50px;
+        height: 50px;
+        color: yellow;
+        font-size: 18px;
+        transform: rotate(270deg);
+    }
+}
+
+#containerB{
+    background: #666 url(https://lh3.googleusercontent.com/WQtp7B0VyKaoXtrfX_WrT1aoeWO_GYKGM45Vv0w4Tgkc5lfD-lq5nEXXiu3iyIHn28mj=s152) no-repeat left top;
+    background-size: 420px 480px;
+    width: 420px;
+    height: 480px;
+    position: relative;
+}
+
+.snowflake {
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+}
+
+.snowflake.f1 {
+    left: 40px;
+    animation-name: snowflake1;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.snowflake.f2 {
+    font-size: 1.8em;
+    left: 120px;
+    animation-name: snowflake2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.snowflake.f3 {
+    left: 200px;
+    animation-name: snowflake3;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    
+}
+
+.snowflake.f4 {
+    font-size: 1.5em;
+    left: 280px;
+    animation-name: snowflake4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes snowflake1{
+    0%{
+        left: 40px;
+        top: 0px;
+    }
+    25%{
+        left: 30px;
+        top: 120px;
+        opacity: .75;
+        width: 1.5em;
+        height: 1.5em;
+    }
+    50%{
+        left: 40px;
+        top: 240px;
+        opacity: .6;
+        width: 2em;
+        height: 2em;
+    }
+    75%{
+        left: 50px;
+        top: 360px;
+        opacity: .5;
+        width: 1.5em;
+        height: 1.5em;
+    }
+    100%{
+        left: 40px;
+        top: 480px;
+        opacity: 0;
+        width: 1em;
+        height: 1em;
+    }
+}
+
+@keyframes snowflake2{
+    0%{
+        left: 120px;
+        top: 0px;
+    }
+    25%{
+        left: 160px;
+        top: 100px;
+        opacity: .8;
+        width: 2.5em;
+        height: 2.5em;
+    }
+    50%{
+        left: 80px;
+        top: 200px;
+        opacity: .6;
+        width: 2em;
+        height: 2em;
+    }
+    75%{
+        left: 140px;
+        top: 300px;
+        opacity: .4;
+        width: 2.5em;
+        height: 2.5em;
+    }
+    100%{
+        left: 40px;
+        top: 480px;
+        opacity: 0;
+        width: .5em;
+        height: .5em;
+    }
+}
+
+@keyframes snowflake3{
+    0%{
+        left: 200px;
+        top: 0px;
+    }
+    25%{
+        left: 240px;
+        top: 120px;
+        opacity: .4;
+        width: 1em;
+        height: 1em;
+    }
+    50%{
+        left: 160px;
+        top: 240px;
+        opacity: .6;
+        width: 2em;
+        height: 2em;
+    }
+    75%{
+        left: 200px;
+        top: 360px;
+        opacity: .4;
+        width: 1em;
+        height: 1em;
+    }
+    100%{
+        left: 240px;
+        top: 480px;
+        opacity: 0;
+        width: .5em;
+        height: .5em;
+    }
+}
+
+@keyframes snowflake4{
+    0%{
+        left: 280px;
+        top: 0px;
+    }
+    25%{
+        left: 260px;
+        top: 240px;
+        opacity: 1;
+        width: 3em;
+        height: 3em;
+    }
+    50%{
+        left: 200px;
+        top: 300px;
+        opacity: .7;
+        width: 2.5em;
+        height: 2.5em;
+    }
+    75%{
+        left: 220px;
+        top: 360px;
+        opacity: .3;
+        width: 2em;
+        height: 2em;
+    }
+    100%{
+        left: 240px;
+        top: 480px;
+        opacity: 0;
+        width: 1.5em;
+        height: 1.5em;
+    }
+}
