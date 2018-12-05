@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="name">Nombre: </label>
+            <input type="text" name="name" id="name" autofocus>
+            <br> <br>
+            <label for="">Correo electrónico: </label>
+            <input type="email" name="" class="required" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos del proyecto</legend>
+            <label for="" id="textAreaLabel">Breve descripción del proyecto;</label>
+            <br>
+            <textarea name="" id="textArea" cols="30" rows="10"></textarea>
+            <br>
+            <label for="">Estado actual del proyecto:</label>
+            <br> <br>
+            <input type="radio" name="fase" id="" checked="checked">En fase de planteamiento 
+            <input type="radio" name="fase" id="">En fase de planificación 
+            <input type="radio" name="fase" id="">En ejecución
+            <input type="radio" name="fase" id="">Ya finalizado
+            <br> <br>
+            <label for="">Presupuesto aproximado (en €): </label>
+            <input type="number" name="presupuesto" id="presupuesto" pattern="^[0-9]*$" min=150 max=30000 value=1000 step=50>
+        </fieldset>
+
+        <input type="submit" value="Enviar" id="enviar">
+    </form>
+</body>
+</html>

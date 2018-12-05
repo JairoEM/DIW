@@ -1,0 +1,11 @@
+.required:invalid{
+    border: 1px solid red;
+}
+
+fieldset{
+    color: red;
+}
+
+legend{
+    color: black;
+}
