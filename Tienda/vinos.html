@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda de Pueblo</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+			<div>
+                <a href="./index.html"><img class="logo" src="./Images/logo.png" alt=""></a>
+            </div>
+
+            <form id="busquedaForm">
+                <input type="text" name="search" placeholder="Buscar..." id="busqueda">
+            </form>
+			
+			<nav>
+				<ul class="nav">
+                    <li><a href="">Productos</a>
+                        <ul class="productos">
+                            <li><a href="">Alimenticios</a>
+                                <ul>
+                                    <li><a href="./vinos.html">Vinos</a></li>
+                                    <li><a href="#">Quesos</a></li>
+                                    <li><a href="#">Embutidos</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Decorativos</a>
+                                <ul>
+                                    <li><a href="#">Cerámica</a></li>
+                                    <li><a href="#">Otros</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menuBar"><a href="#">Historia</a></li>
+                    <li class="menuBar"><a href="./contacto.html">Contacto</a></li>
+                </ul>
+			</nav>
+		</div>
+    </header>
+
+    <div class="slider">
+        <button>&#60;&#60;</button>
+        <img class="img1Slide" alt="alt img1" src="./Images/tienda.jpg"/>
+        <img class="img2Slide" alt="alt img 2" src="./Images/pueblo.jpg"/>
+        <img class="img3Slide" alt="alt img3" src="./Images/miel.jpg"/>
+        <button>>></button>           
+    </div>
+
+    <div id="vinosPage">
+        <h1 id="introh1">Vinos de la Zona</h1>
+        
+        <div clas="contenedorVinos" id="vinosTintos">
+            <h1>Vinos Tintos</h1>
+            <div>
+                <div>
+                    <img class="imgDescripcion" src="./Images/vinoTinto.jpg" alt="">
+                </div>
+                <div class="descripcion">
+                    <h3>Descripción</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ex consectetur facilis voluptas quam tenetur repellat impedit aliquam culpa. Earum ratione nam consectetur, laudantium magnam eos corporis non mollitia dolores?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ex consectetur facilis voluptas quam tenetur repellat impedit aliquam culpa. Earum ratione nam consectetur, laudantium magnam eos corporis non mollitia dolores?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedorVinos" id="vinosBlancos">
+            <h1>Vinos Blancos</h1>
+            <div>
+                <div>
+                    <img class="imgDescripcion" src="./Images/vinoBlanco.jpg" alt="">
+                </div>
+                <div class="descripcion">
+                    <h3>Descripción</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ex consectetur facilis voluptas quam tenetur repellat impedit aliquam culpa. Earum ratione nam consectetur, laudantium magnam eos corporis non mollitia dolores?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ex consectetur facilis voluptas quam tenetur repellat impedit aliquam culpa. Earum ratione nam consectetur, laudantium magnam eos corporis non mollitia dolores?</p>
+                </div>
+            </div>
+        </div>
+    
+        <footer>
+            <p>c/Placeta de las Minas, 18010, Granada, Granada</p>
+            <p>tiendadepueblo@gmail.com</p>
+            <p>+34 698 75 43 21 <img src="./Images/wapplogo.png" alt="" id="whatsappLogo"/></p>  
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+header{
+    background-color: lightgray;
+    color: seagreen;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+#h2aficiones{
+    text-align: right;
+    color: green;
+    font-style: italic;
+    text-shadow: 0px 3px 6px black;
+}
+
+#html5{
+    width: 40px;
+    height: 40px;
+}
+
+#css3{
+    width: 20px;
+    height: 40px;
+}
+
+#js{
+    width: 80px;
+    height: 40px;
+}
+
+#imgmountain{
+    border-left: 4px solid red;
+    width: 60px;
+    height: 30px;
+}
+
+div h3{
+    color: green;
+}
+
+#aficiones{
+    display: flex;
+}
+
+#aficiones{
+    align-content: center;
+    text-align: center;
+}
+
+p{
+    text-align: left;
+}
+
+#web{
+    background-color: peru;
+    width: 33%;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+#mountain{
+    background-color: lightskyblue;
+    width: 33%;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+#animales{
+    background-image: url("Recursos/bird.png"), url("Recursos/arbol.png"), url("Recursos/fondo.jpg");
+    background-position: right center , center bottom, center;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: 80px 80px, 60px 150px, cover;
+    width: 33%;
+    padding: 20px;
+}
+
+#web, #mountain, #animales{
+    text-align: center;
+    border-radius: 45px 0px 45px 0px;
+}
+
+#series, #sseries{
+    text-align: center;
+    border-radius: 45px 0px 45px 0px;
+}
+
+#series{
+    margin: 10px 0px 10px 0px;
+    background-image: linear-gradient(50deg, grey, lightskyblue);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#sseries{
+    background-color: darkkhaki;
+    padding: 20px;
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#efecto{
+    font-size: 2em;
+    animation-name: exam;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes exam{
+    from {
+        margin-left: 80%;
+        color: red;
+    }
+    to {
+        margin-left: 0%;
+        color: blue;
+    }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda de Pueblo</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+			<div>
+                <a href="./index.html"><img class="logo" src="./Images/logo.png" alt=""></a>
+            </div>
+
+            <form id="busquedaForm">
+                <input type="text" name="search" placeholder="Buscar..." id="busqueda">
+            </form>
+			
+			<nav>
+				<ul class="nav">
+                    <li><a href="">Productos</a>
+                        <ul class="productos">
+                            <li><a href="">Alimenticios</a>
+                                <ul>
+                                    <li><a href="./vinos.html">Vinos</a></li>
+                                    <li><a href="#">Quesos</a></li>
+                                    <li><a href="#">Embutidos</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Decorativos</a>
+                                <ul>
+                                    <li><a href="#">Cerámica</a></li>
+                                    <li><a href="#">Otros</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menuBar"><a href="#">Historia</a></li>
+                    <li class="menuBar"><a href="./contacto.html">Contacto</a></li>
+                </ul>
+			</nav>
+		</div>
+    </header>
+
+    <div class="slider">
+        <button>&#60;&#60;</button>
+        <img class="img1Slide" alt="alt img1" src="./Images/tienda.jpg"/>
+        <img class="img2Slide" alt="alt img 2" src="./Images/pueblo.jpg"/>
+        <img class="img3Slide" alt="alt img3" src="./Images/miel.jpg"/>
+        <button>>></button>           
+    </div>
+
+
+    <div id="contactoPage">
+        <h1 id="introh1">Contacto</h1>
+
+        <div id="formRegistro">
+            <div id="form">
+                <form action="#" method="GET" enctype="multipart/form-data">
+                    <label for="">Nombre*</label> <br>
+                    <input type="text" name="" id="" autofocus required class="required" placeholder="Nombre y Apellidos"> <br><br>
+
+                    <label for="">Correo Electrónico*</label> <br>
+                    <input type="text" name="" id="" class="required" pattern="^[a-zA-Z0-9/*-_.]{1,}[@][a-z]{1,}.com$" required placeholder="ejemplo@correo.com"> <br><br>
+
+                    <label for="">Empresa</label> <br>
+                    <input type="text" name="" id="" placeholder="Rellenar en caso de ser necesario"> <br><br>
+
+                    <label for="">Mensaje</label> <br>
+                    <textarea name="" id="" cols="60" rows="10" required class="required" required placeholder="Escribe aquí tu mensaje"></textarea> <br><br>
+
+                    <input type="submit" value="Enviar" id="enviar">
+                </form>
+            </div>
+        </div>
+        
+        <footer>
+            <p>c/Placeta de las Minas, 18010, Granada, Granada</p>
+            <p>tiendadepueblo@gmail.com</p>
+            <p>+34 698 75 43 21 <img src="./Images/wapplogo.png" alt="" id="whatsappLogo"/></p>  
+        </footer>
+    </div>
+</body>
+</html>

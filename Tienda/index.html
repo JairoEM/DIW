@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda de Pueblo</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+			<div>
+                <a href="./index.html"><img class="logo" src="./Images/logo.png" alt=""></a>
+            </div>
+
+            <form id="busquedaForm">
+                <input type="text" name="search" placeholder="Buscar..." id="busqueda">
+            </form>
+			
+			<nav>
+				<ul class="nav">
+                    <li><a href="">Productos</a>
+                        <ul class="productos">
+                            <li><a href="">Alimenticios</a>
+                                <ul>
+                                    <li><a href="./vinos.html">Vinos</a></li>
+                                    <li><a href="#">Quesos</a></li>
+                                    <li><a href="#">Embutidos</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Decorativos</a>
+                                <ul>
+                                    <li><a href="#">Cerámica</a></li>
+                                    <li><a href="#">Otros</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menuBar"><a href="#">Historia</a></li>
+                    <li class="menuBar"><a href="./contacto.html">Contacto</a></li>
+                </ul>
+			</nav>
+		</div>
+    </header>
+
+    <div class="slider">
+        <button>&#60;&#60;</button>
+        <img class="img1Slide" alt="alt img1" src="./Images/tienda.jpg"/>
+        <img class="img2Slide" alt="alt img 2" src="./Images/pueblo.jpg"/>
+        <img class="img3Slide" alt="alt img3" src="./Images/miel.jpg"/>
+        <button>>></button>           
+    </div>
+
+    <div id="fullInfo">
+        <div id="productosAlimenticios">
+            <h1>Productos Alimenticios</h1>
+            <div class="contenedorProductos">
+                <div>
+                    <img class="imgDescripcion" src="./Images/packComida.jpg" alt="">
+                </div>
+                <div class="descripcion">
+                    <h3>Descripción</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ex consectetur facilis voluptas quam tenetur repellat impedit aliquam culpa. Earum ratione nam consectetur, laudantium magnam eos corporis non mollitia dolores?</p>
+                </div>
+            </div>
+
+            <div class="imagenesDescriptivas">
+                <div id="imagenDescriptiva2">
+                    <h4><a href="./vinos.html">VINOS</a></h4>
+                </div>
+                <div id="imagenDescriptiva1">
+                    <h4><a href="">QUESOS</a></h4>
+                </div>
+                <div id="imagenDescriptiva3">
+                    <h4><a href="">EMBUTIDOS</a></h4>
+                </div>
+            </div>
+        </div>
+
+        <div id="productosDecorativos">
+            <h1>Productos Decorativos</h1>
+            <div class="contenedorProductos">
+                <div>
+                    <img class="imgDescripcion" src="./Images/packArtesania.jpg" alt="">
+                </div>
+                <div class="descripcion">
+                    <h3>Descripción</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ex consectetur facilis voluptas quam tenetur repellat impedit aliquam culpa. Earum ratione nam consectetur, laudantium magnam eos corporis non mollitia dolores?</p>
+                </div>
+            </div>
+
+            <div class="imagenesDescriptivas">
+                <div id="imagenDescriptiva4">
+                    <h4><a href="">CERÁMICA</a></h4>
+                </div>
+                <div id="imagenDescriptiva5">
+                    <h4><a href="">OTROS</a></h4>
+                </div>
+            </div>
+        </div>
+
+        <div id="localizacion">
+            <h1>Donde Localizarnos</h1>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.767996583833!2d-3.5945921256955393!3d37.181984173411685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fcc6f80a2785%3A0x1e8d734450a3334e!2sPlaceta+de+las+Minas%2C+18010+Granada!5e0!3m2!1ses!2ses!4v1544624182464" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias blanditiis velit sequi at rerum, dicta, repudiandae minus corrupti, sunt repellendus quos ea vitae fugit sapiente. Aperiam inventore labore quidem rem.</p>
+            </div>
+        </div>
+    
+        <footer>
+            <p>c/Placeta de las Minas, 18010, Granada, Granada</p>
+            <p>tiendadepueblo@gmail.com</p>
+            <p>+34 698 75 43 21 <img src="./Images/wapplogo.png" alt="" id="whatsappLogo"/></p>  
+        </footer>
+    </div>
+</body>
+</html>
