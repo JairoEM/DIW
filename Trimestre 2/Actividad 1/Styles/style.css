@@ -27,20 +27,20 @@
 	background-color: black;
 }
 
-#row1{
+#blue{
     background-color: blue;
     height: 50px;
 }
 
-#row2{
+#red{
     background-color: red;
-    height: 100px;
+    height: 50px;
 }
 
-#row3{
+/* #blue{
     background-color: blue;
     height: 100px;
-}
+} */
 
 #black{
     background-color: black;
@@ -52,4 +52,9 @@
 
 #yellow{
     background-color: yellow;
+    height: 50px;
+}
+
+#mix{
+    height: 50px;
 }
