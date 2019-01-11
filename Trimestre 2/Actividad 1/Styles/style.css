@@ -37,11 +37,6 @@
     height: 50px;
 }
 
-/* #blue{
-    background-color: blue;
-    height: 100px;
-} */
-
 #black{
     background-color: black;
 }
@@ -57,4 +52,36 @@
 
 #mix{
     height: 50px;
+}
+
+#fila{
+    height: 100px;
+}
+
+#fila2{
+    height: 300px;
+}
+
+#khaki{
+    background-color: khaki;
+}
+
+#naranja{
+    background-color: orange;
+}
+
+#azul{
+    background-color: blue;
+}
+
+#blanco{
+    background-color: white;
+}
+
+#verde{
+    background-color: green;
+}
+
+#amarillo{
+    background-color: yellow;
 }
