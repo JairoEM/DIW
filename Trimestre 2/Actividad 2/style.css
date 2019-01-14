@@ -1,0 +1,33 @@
+div.row{
+    margin-bottom: 10px;
+}
+
+#topBot{
+    border: 2px solid black;
+    height: 25px;
+    background-color: green;
+}
+
+#number{
+    border: 2px solid black;
+    height: 100px;
+    background-color: lightblue;
+}
+
+#letter{
+    border: 2px solid black;
+    height: 100px;
+    background-color: lightgray;
+}
+
+#aux{
+    border: 2px solid black;
+    height: 50px;
+    background-color: aqua;
+}
+
+#emote{
+    border: 2px solid black;
+    height: 100px;
+    background-color: orange;
+}
