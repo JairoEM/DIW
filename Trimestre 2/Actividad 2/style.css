@@ -31,3 +31,18 @@ div.row{
     height: 100px;
     background-color: orange;
 }
+
+#numbersBody{
+    height: 300px;
+}
+
+#numbersB{
+    border: 2px solid black;
+    background-color: red;
+}
+
+#footers{
+    border: 2px solid black;
+    height: 25px;
+    background-color: yellow;
+}
